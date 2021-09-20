@@ -1,0 +1,70 @@
+{
+  "name": "ecodium",
+  "version": "0.0.1",
+  "description": "Plataforma para fomentar la creatividad entre programadores (TFG Samuel Encinas 2021)",
+  "productName": "ECodium",
+  "author": "Samuel Encinas <samuel.encinasplaza@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@daykeep/calendar-quasar": "^1.0.0-beta.3",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "blitzar": "^0.0.26",
+    "chart.js": "2.9.4",
+    "core-js": "^3.6.5",
+    "downloadjs": "^1.4.7",
+    "emailjs-com": "^3.2.0",
+    "particles.vue": "^2.2.3",
+    "quasar": "^1.0.0",
+    "typed.js": "^2.0.12",
+    "vue": "^2.6.12",
+    "vue-chartjs": "^3.5.1",
+    "vue-class-component": "^7.2.2",
+    "vue-codemirror": "^4.0.6",
+    "vue-i18n": "^8.0.0",
+    "vue-property-decorator": "^8.3.0",
+    "vue-recaptcha-v3": "1.9.0",
+    "vuelidate": "^0.7.6",
+    "vuethereum": "^0.0.7",
+    "vuex": "^3.6.2",
+    "web3": "^3.0.0-rc.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "@quasar/quasar-app-extension-qactivity": "^1.0.0-beta.5",
+    "@quasar/quasar-app-extension-qmarkdown": "^1.4.3",
+    "@types/node": "^10.17.15",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
